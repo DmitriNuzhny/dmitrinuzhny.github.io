@@ -5,19 +5,19 @@ import { AnimatePresence } from 'framer-motion';
 import './App.css';
 
 // Pages
-import Home from './pages/Home';
-import About from './pages/About';
-import Experience from './pages/Experience';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
+import Home from './pages/Home.tsx';
+import About from './pages/About.tsx';
+import Experience from './pages/Experience.tsx';
+import Projects from './pages/Projects.tsx';
+import Contact from './pages/Contact.tsx';
 
 // Components
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Footer from './components/Footer.tsx';
 
 // Theme
-import { theme } from './styles/theme';
-import { MainContainer } from './styles/MainStyles';
+import { theme } from './styles/theme.ts';
+import { MainContainer } from './styles/MainStyles.ts';
 
 const App: React.FC = () => {
   return (

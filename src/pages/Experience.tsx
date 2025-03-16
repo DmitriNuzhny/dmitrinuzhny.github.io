@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { SectionContainer, Heading1, Heading3, Paragraph, Badge } from '../styles/MainStyles';
+import { SectionContainer, Heading1, Heading3, Paragraph, Badge } from '../styles/MainStyles.ts';
 
 const ExperienceSection = styled(SectionContainer)`
   padding-top: ${props => props.theme.spacing['3xl']};

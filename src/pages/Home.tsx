@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaJsSquare, FaAws, FaShopify, FaMicrosoft } from 'react-icons/fa';
 import { SiTypescript } from 'react-icons/si';
-import { SectionContainer, Heading1, Paragraph, Button } from '../styles/MainStyles';
+import { SectionContainer, Heading1, Paragraph, Button } from '../styles/MainStyles.ts';
 
 const HeroSection = styled(SectionContainer)`
   display: flex;

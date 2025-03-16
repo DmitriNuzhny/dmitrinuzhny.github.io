@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
-import { SectionContainer, Heading1, Paragraph, Button } from '../styles/MainStyles';
+import { SectionContainer, Heading1, Paragraph, Button } from '../styles/MainStyles.ts';
 
 const ContactSection = styled(SectionContainer)`
   padding-top: ${props => props.theme.spacing['3xl']};

@@ -26,24 +26,11 @@ jobs:
         run: |
           ls -la
           ls -la src/
-          cat src/index.tsx
-          cat src/App.tsx
+          ls -la src/pages/
+          ls -la src/components/
 
       - name: Install dependencies 📦
         run: npm ci
-
-      - name: Create simple app 🛠️
-        run: |
-          echo "import React from 'react';
-          import { createRoot } from 'react-dom/client';
-          
-          const App = () => {
-            return <div>Hello World</div>;
-          };
-          
-          const root = createRoot(document.getElementById('root'));
-          root.render(<App />);
-          " > src/index.tsx
 
       - name: Build 🏗️
         run: CI=false npm run build

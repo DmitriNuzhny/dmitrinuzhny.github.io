@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import { SectionContainer, Heading1, Heading2, Paragraph, Badge, Card } from '../styles/MainStyles';
+import { SectionContainer, Heading1, Heading2, Paragraph, Badge, Card } from '../styles/MainStyles.ts';
 
 const ProjectsSection = styled(SectionContainer)`
   padding-top: ${props => props.theme.spacing['3xl']};
