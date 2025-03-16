@@ -14,6 +14,41 @@ const AboutContent = styled.div`
   gap: ${props => props.theme.spacing.xl};
 `;
 
+const ProfileSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: ${props => props.theme.spacing.xl};
+  
+  @media (min-width: ${props => props.theme.breakpoints.md}) {
+    flex-direction: row;
+    gap: ${props => props.theme.spacing.xl};
+  }
+`;
+
+const ProfileImageContainer = styled.div`
+  width: 250px;
+  height: 300px;
+  border-radius: ${props => props.theme.borderRadius.lg};
+  overflow: hidden;
+  box-shadow: ${props => props.theme.boxShadow.md};
+  margin-bottom: ${props => props.theme.spacing.lg};
+  
+  @media (min-width: ${props => props.theme.breakpoints.md}) {
+    margin-bottom: 0;
+  }
+`;
+
+const ProfileImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`;
+
+const ProfileContent = styled.div`
+  flex: 1;
+`;
+
 const SkillsContainer = styled.div`
   margin-top: ${props => props.theme.spacing.lg};
 `;
@@ -66,8 +101,13 @@ const About: React.FC = () => {
     >
       <AboutSection>
         <Heading1>About Me</Heading1>
-        <AboutContent>
-          <div>
+        
+        <ProfileSection>
+          <ProfileImageContainer>
+            <ProfileImage src="https://avatars.githubusercontent.com/u/DmitriNuzhny" alt="Dmitri Nuzhny" />
+          </ProfileImageContainer>
+          
+          <ProfileContent>
             <Paragraph>
               I'm a seasoned Full-stack Software Engineer with over 6 years of experience delivering scalable, 
               high-performance applications across eCommerce, education, and logistics industries. I specialize 
@@ -83,8 +123,10 @@ const About: React.FC = () => {
               Whether it's developing custom Shopify integrations, building data processing systems, or creating 
               student portals, I approach each project with dedication and attention to detail.
             </Paragraph>
-          </div>
-
+          </ProfileContent>
+        </ProfileSection>
+        
+        <AboutContent>
           <div>
             <Heading2>Technical Skills</Heading2>
             <SkillsContainer>
