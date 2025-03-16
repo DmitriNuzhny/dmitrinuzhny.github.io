@@ -35,9 +35,13 @@ jobs:
       - name: Build 🏗️
         run: CI=false npm run build
 
-      - name: Deploy 🚀
+      - name: Deploy to GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
           branch: gh-pages
-          clean: true 
+          clean: true
+          
+      - name: Update Pages settings
+        run: |
+          touch build/.nojekyll 
