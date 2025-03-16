@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { SectionContainer, Heading1, Heading2, Heading3, Paragraph, Badge } from '../styles/MainStyles.ts';
+import profileImage from '../assets/images/dmitri_profile.jpg';
 
 const AboutSection = styled(SectionContainer)`
   padding-top: ${props => props.theme.spacing['3xl']};
@@ -104,7 +105,7 @@ const About: React.FC = () => {
         
         <ProfileSection>
           <ProfileImageContainer>
-            <ProfileImage src="https://avatars.githubusercontent.com/u/DmitriNuzhny" alt="Dmitri Nuzhny" />
+            <ProfileImage src={profileImage} alt="Dmitri Nuzhny" />
           </ProfileImageContainer>
           
           <ProfileContent>
