@@ -89,7 +89,7 @@ const Experience: React.FC = () => {
         <ExperienceContainer>
           <ExperienceItem>
             <JobTitle>Senior Shopify Developer</JobTitle>
-            <Company>Dental Products Supplier</Company>
+            <Company>DentalMarketPlace</Company>
             <Period>October 2024 – Present</Period>
             <Paragraph>
               Leading the development and customization of a Shopify-based eCommerce platform tailored for dental products and suppliers.
