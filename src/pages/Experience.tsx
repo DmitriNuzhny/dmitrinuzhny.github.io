@@ -88,6 +88,32 @@ const Experience: React.FC = () => {
         <Heading1>Professional Experience</Heading1>
         <ExperienceContainer>
           <ExperienceItem>
+            <JobTitle>Senior Shopify Developer</JobTitle>
+            <Company>Dental Products Supplier</Company>
+            <Period>October 2024 – Present</Period>
+            <Paragraph>
+              Leading the development and customization of a Shopify-based eCommerce platform tailored for dental products and suppliers.
+            </Paragraph>
+            <ResponsibilitiesList>
+              <li>Leading the development and customization of a Shopify-based eCommerce platform tailored for dental products and suppliers</li>
+              <li>Managing and updating theme code using Liquid, HTML/CSS, and JavaScript to enhance UI/UX and site performance</li>
+              <li>Overseeing product inventory, customization, pricing, and SEO optimization for hundreds of SKUs</li>
+              <li>Implementing shipping logic and integrations to streamline order fulfillment and improve customer experience</li>
+              <li>Collaborating with others to implement new features and fix bugs</li>
+            </ResponsibilitiesList>
+            <TechStack>
+              <Heading3>Technologies Used:</Heading3>
+              <TechBadges>
+                <Badge>Shopify</Badge>
+                <Badge>Liquid</Badge>
+                <Badge>HTML/CSS</Badge>
+                <Badge>JavaScript</Badge>
+                <Badge>SEO</Badge>
+              </TechBadges>
+            </TechStack>
+          </ExperienceItem>
+
+          <ExperienceItem>
             <JobTitle>Senior Software Engineer</JobTitle>
             <Company>Fox Factory</Company>
             <Period>January 2023 – May 2024</Period>
