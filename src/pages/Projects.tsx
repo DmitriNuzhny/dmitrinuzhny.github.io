@@ -63,27 +63,34 @@ const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
+      title: 'DentalMarketPlace',
+      description: 'Leading the development of a Shopify-based eCommerce platform for dental products and suppliers. Managing theme customization, product inventory, and implementing shipping logic to streamline order fulfillment.',
+      link: 'https://dentalmarketplace.shop',
+      technologies: ['Shopify', 'Liquid', 'HTML/CSS', 'JavaScript', 'SEO']
+    },
+    {
+      id: 2,
       title: 'DeliverLogic',
       description: 'Developed features for restaurant delivery management systems, improving order processing efficiency by integrating Google visualization framework. Implemented Twilio 2FA, 7-Eleven food ordering services, and automated customer support using Slaask API.',
       link: 'https://deliverlogic.com',
       technologies: ['PHP', 'JavaScript', 'Google Visualization', 'Twilio API', 'Slaask API']
     },
     {
-      id: 2,
+      id: 3,
       title: 'Santa Fe College Portal',
       description: 'Built a student portal for account management, class enrollment, financial aid applications, and coursework tracking using Angular and Spring Boot. Developed backend services to manage student records and handle academic transcript requests.',
       link: 'https://sfcollege.edu',
       technologies: ['Angular', 'Spring Boot', 'Java', 'Hibernate', 'JPA', 'SQL']
     },
     {
-      id: 3,
+      id: 4,
       title: 'Navient Financial Aid Platform',
       description: 'Led the development of a data centralization platform for student financial aid data, connecting multiple college networks using Node.js. Built secure APIs to provide colleges with real-time access to student financial records.',
       link: 'https://navient.com',
       technologies: ['Node.js', 'React', 'TypeScript', 'Redux', 'SQL', 'REST APIs']
     },
     {
-      id: 4,
+      id: 5,
       title: 'BDS Suspension',
       description: 'Developed custom PDP and collection templates according to the design, and built a custom app to manage products. Delivered custom Shopify integrations to manage dynamic product data from Akeneo PIM to Shopify.',
       link: 'https://bds-suspension.com',
@@ -91,14 +98,14 @@ const Projects: React.FC = () => {
       technologies: ['Shopify', 'Liquid', 'Node.js', 'React', 'Akeneo', 'Azure']
     },
     {
-      id: 5,
+      id: 6,
       title: 'Social Media Gallery',
       description: 'Developed a social media gallery app using React and Node.js, showcasing customer builds. Integrated with various social media APIs to automatically fetch and display user-generated content.',
       github: 'https://github.com/dmitrinuzhny',
       technologies: ['React', 'Node.js', 'TypeScript', 'Social Media APIs', 'Azure']
     },
     {
-      id: 6,
+      id: 7,
       title: 'Akeneo-Shopify Integration',
       description: 'Built a custom integration module to synchronize product data between Akeneo PIM and Shopify. Enabled enterprise clients to manage thousands of unique products with dynamic pricing and variants.',
       github: 'https://github.com/dmitrinuzhny',
