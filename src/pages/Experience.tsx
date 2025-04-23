@@ -96,6 +96,7 @@ const Experience: React.FC = () => {
             </Paragraph>
             <ResponsibilitiesList>
               <li>Leading the development and customization of a Shopify-based eCommerce platform tailored for dental products and suppliers</li>
+              <li>Developed shopify public and custom apps using Node.js, React, and Ruby on Rails</li>
               <li>Managing and updating theme code using Liquid, HTML/CSS, and JavaScript to enhance UI/UX and site performance</li>
               <li>Overseeing product inventory, customization, pricing, and SEO optimization for hundreds of SKUs</li>
               <li>Implementing shipping logic and integrations to streamline order fulfillment and improve customer experience</li>
