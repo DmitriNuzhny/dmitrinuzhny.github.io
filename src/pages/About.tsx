@@ -110,7 +110,7 @@ const About: React.FC = () => {
           
           <ProfileContent>
             <Paragraph>
-              I'm a seasoned Full-stack Software Engineer with over 6 years of experience delivering scalable, 
+              I'm a seasoned Full-stack Software Engineer with over 7 years of experience delivering scalable, 
               high-performance applications across eCommerce, education, and logistics industries. I specialize 
               in building dynamic solutions, API integrations, and modernizing legacy systems for enterprise clients.
             </Paragraph>

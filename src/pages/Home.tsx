@@ -123,7 +123,7 @@ const Home = () => {
         <Name>Dmitri Nuzhny</Name>
         <Title>Full-stack Software Engineer</Title>
         <Summary>
-          Seasoned Full-stack Software Engineer with over 6 years of experience delivering scalable, high-performance 
+          Seasoned Full-stack Software Engineer with over 7 years of experience delivering scalable, high-performance 
           applications across eCommerce, education, and logistics industries. Proven expertise in React, Node.js, 
           TypeScript, Shopify, and cloud platforms like Azure and AWS.
         </Summary>
