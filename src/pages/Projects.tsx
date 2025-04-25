@@ -64,35 +64,35 @@ const Projects: React.FC = () => {
     {
       id: 1,
       title: 'DentalMarketPlace',
-      description: 'Leading the development of a Shopify-based eCommerce platform for dental products and suppliers. Managing theme customization, product inventory, and implementing shipping logic to streamline order fulfillment.',
+      description: 'Implemented multi-brand product import tools and warehouse shipping logic. Managed Shopify theme and store app integration.',
       link: 'https://dentalmarketplace.shop',
-      technologies: ['Shopify', 'Liquid', 'HTML/CSS', 'JavaScript', 'SEO']
+      technologies: ['Shopify', 'Liquid', 'HTML/CSS', 'JavaScript', 'Node.js', 'React']
     },
     {
       id: 2,
       title: 'DeliverLogic',
-      description: 'Developed features for restaurant delivery management systems, improving order processing efficiency by integrating Google visualization framework. Implemented Twilio 2FA, 7-Eleven food ordering services, and automated customer support using Slaask API.',
+      description: 'Built delivery management features and visual monitoring for restaurants. Implemented automated customer support and food ordering APIs.',
       link: 'https://deliverlogic.com',
-      technologies: ['PHP', 'JavaScript', 'Google Visualization', 'Twilio API', 'Slaask API']
+      technologies: ['PHP', 'JavaScript', 'Google Charts', 'Twilio', 'Slack API', 'MySQL']
     },
     {
       id: 3,
       title: 'Santa Fe College Portal',
-      description: 'Built a student portal for account management, class enrollment, financial aid applications, and coursework tracking using Angular and Spring Boot. Developed backend services to manage student records and handle academic transcript requests.',
+      description: 'Developed student self-service portals for enrollment, aid, and coursework. Created backend services for record and transcript handling.',
       link: 'https://sfcollege.edu',
       technologies: ['Angular', 'Spring Boot', 'Java', 'Hibernate', 'JPA', 'SQL']
     },
     {
       id: 4,
       title: 'Navient Financial Aid Platform',
-      description: 'Led the development of a data centralization platform for student financial aid data, connecting multiple college networks using Node.js. Built secure APIs to provide colleges with real-time access to student financial records.',
+      description: 'Built centralized platforms for student data processing using Node.js. Created REST APIs for external college integration.',
       link: 'https://navient.com',
       technologies: ['Node.js', 'React', 'TypeScript', 'Redux', 'SQL', 'REST APIs']
     },
     {
       id: 5,
-      title: 'BDS Suspension',
-      description: 'Developed custom PDP and collection templates according to the design, and built a custom app to manage products. Delivered custom Shopify integrations to manage dynamic product data from Akeneo PIM to Shopify.',
+      title: 'BDS Suspension & Akeneo Integration',
+      description: 'Engineered custom apps for Shopify and data synchronization with Akeneo. Designed gallery and product showcase systems.',
       link: 'https://bds-suspension.com',
       github: 'https://github.com/dmitrinuzhny',
       technologies: ['Shopify', 'Liquid', 'Node.js', 'React', 'Akeneo', 'Azure']
