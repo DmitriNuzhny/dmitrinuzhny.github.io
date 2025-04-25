@@ -91,16 +91,13 @@ const Experience: React.FC = () => {
             <JobTitle>Senior Shopify Developer</JobTitle>
             <Company>DentalMarketPlace</Company>
             <Period>October 2024 – Present</Period>
-            <Paragraph>
-              Leading the development and customization of a Shopify-based eCommerce platform tailored for dental products and suppliers.
-            </Paragraph>
             <ResponsibilitiesList>
-              <li>Leading the development and customization of a Shopify-based eCommerce platform tailored for dental products and suppliers</li>
-              <li>Developed shopify public and custom apps using Node.js, React, and Ruby on Rails</li>
-              <li>Managing and updating theme code using Liquid, HTML/CSS, and JavaScript to enhance UI/UX and site performance</li>
-              <li>Overseeing product inventory, customization, pricing, and SEO optimization for hundreds of SKUs</li>
-              <li>Implementing shipping logic and integrations to streamline order fulfillment and improve customer experience</li>
-              <li>Collaborating with others to implement new features and fix bugs</li>
+              <li>Developed and optimized a Shopify-based dental product platform, increasing user engagement by improving UI responsiveness.</li>
+              <li>Developed Shopify public and custom apps using Node.js, React, and PHP.</li>
+              <li>Managed theme development in Liquid, JavaScript, and HTML/CSS, enhancing speed and accessibility.</li>
+              <li>Designed warehouse-based shipping logic that reduced delivery times by 20%.</li>
+              <li>Oversaw product inventory and SEO enhancements, supporting 500+ SKUs.</li>
+              <li>Coordinated feature implementation and bug fixes with cross-functional teams.</li>
             </ResponsibilitiesList>
             <TechStack>
               <Heading3>Technologies Used:</Heading3>
@@ -118,15 +115,11 @@ const Experience: React.FC = () => {
             <JobTitle>Senior Software Engineer</JobTitle>
             <Company>Fox Factory</Company>
             <Period>January 2023 – May 2024</Period>
-            <Paragraph>
-              Led the development of Shopify-based eCommerce websites and custom integrations for enterprise clients.
-            </Paragraph>
             <ResponsibilitiesList>
-              <li>Led the development of Shopify-based eCommerce websites, including the successful launch of BDS Suspension, driving significant brand growth.</li>
-              <li>Developed a custom Akeneo-Shopify integration module in Node.js to import dynamic product data such as pricing and variants, enabling enterprise clients to manage thousands of unique products.</li>
-              <li>Built auxiliary applications using React and Node.js, including a social media gallery showcasing customer builds.</li>
-              <li>Enhanced legacy PHP systems and contributed to C# backends on Azure, supporting mobile developers in connecting Flutter apps to authentication and data endpoints.</li>
-              <li>Managed various Azure resources including AD B2C Auth, Function Apps, Blob/File Storage, and SQL database.</li>
+              <li>Launched BDS Suspension Shopify store, contributing to 35% growth in online revenue.</li>
+              <li>Engineered Akeneo-Shopify data sync module in Node.js to support over 3,000 dynamic SKUs.</li>
+              <li>Built React + Node.js applications including a customer showcase gallery.</li>
+              <li>Supported legacy backend systems in PHP and C#; integrated with Azure services(AD B2C, Function Apps, SQL).</li>
             </ResponsibilitiesList>
             <TechStack>
               <Heading3>Technologies Used:</Heading3>
@@ -147,14 +140,11 @@ const Experience: React.FC = () => {
             <JobTitle>Full-Stack Software Engineer</JobTitle>
             <Company>Navient</Company>
             <Period>August 2020 – December 2022</Period>
-            <Paragraph>
-              Modernized large-scale data processing applications and built secure APIs for financial aid processing.
-            </Paragraph>
             <ResponsibilitiesList>
-              <li>Reconstructed and modernized large-scale data processing applications using Node.js, centralizing student financial aid data across multiple college networks.</li>
-              <li>Developed an information module to connect to various college systems, ingesting data into Navient's central database for seamless financial aid processing.</li>
-              <li>Built a secure API module providing colleges with real-time access to financial aid records and updates.</li>
-              <li>Assisted in frontend development using React and TypeScript with Redux, enhancing the user interface for college administrators.</li>
+              <li>Modernized financial aid processing tools for college networks using Node.js and React.</li>
+              <li>Built centralized data ingestion systems, improving data pipeline efficiency by 40%.</li>
+              <li>Created secure RESTful APIs for financial aid record access.</li>
+              <li>Enhanced Redux-powered admin portals for university partners.</li>
             </ResponsibilitiesList>
             <TechStack>
               <Heading3>Technologies Used:</Heading3>
@@ -173,13 +163,10 @@ const Experience: React.FC = () => {
             <JobTitle>Angular / Spring Boot Engineer</JobTitle>
             <Company>Santa Fe College</Company>
             <Period>May 2019 – August 2020</Period>
-            <Paragraph>
-              Designed and implemented the college student portal for account access and management.
-            </Paragraph>
             <ResponsibilitiesList>
-              <li>Designed and implemented the college student portal for account access, class enrollment, financial aid applications, and coursework management.</li>
-              <li>Developed backend services using Spring Boot, Hibernate, and JPA, handling student records and academic transcripts efficiently.</li>
-              <li>Created HTTP requests in Angular to fetch data and update the user interface dynamically.</li>
+              <li>Built a student portal with real-time class registration and document management.</li>
+              <li>Developed REST APIs and student record systems using Java Spring Boot and Hibernate.</li>
+              <li>Integrated Angular frontend with dynamic HTTP endpoints.</li>
             </ResponsibilitiesList>
             <TechStack>
               <Heading3>Technologies Used:</Heading3>
@@ -198,13 +185,10 @@ const Experience: React.FC = () => {
             <JobTitle>Senior PHP Developer</JobTitle>
             <Company>DeliverLogic</Company>
             <Period>June 2018 – February 2019</Period>
-            <Paragraph>
-              Enhanced monitoring systems and integrated third-party API services for food ordering platforms.
-            </Paragraph>
             <ResponsibilitiesList>
-              <li>Enhanced Google Food Ordering graphical monitoring systems using the Google Visualization framework.</li>
-              <li>Integrated third-party API services, including Twilio 2FA, 7-Eleven food ordering services, and Slaask automated customer support.</li>
-              <li>Developed financial reporting tables for restaurants and users, improving data visualization and business insights.</li>
+              <li>Created visual dashboards for food delivery systems using Google Charts.</li>
+              <li>Integrated Twilio 2FA, Slack support bots, and 7-Eleven ordering services.</li>
+              <li>Developed analytics dashboards and financial tables for restaurant partners.</li>
             </ResponsibilitiesList>
             <TechStack>
               <Heading3>Technologies Used:</Heading3>

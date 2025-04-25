@@ -123,9 +123,7 @@ const Home = () => {
         <Name>Dmitri Nuzhny</Name>
         <Title>Full-stack Software Engineer</Title>
         <Summary>
-          Seasoned Full-stack Software Engineer with over 7 years of experience delivering scalable, high-performance 
-          applications across eCommerce, education, and logistics industries. Proven expertise in React, Node.js, 
-          TypeScript, Shopify, and cloud platforms like Azure and AWS.
+          Full-stack Software Engineer with over 7 years of experience building scalable, high-performance web applications, with a specialization in eCommerce and cloud-native systems. Expert in React, Node.js, Shopify, and AWS/Azure. Delivered production-grade solutions across industries including dental, education, and logistics, serving thousands of users and streamlining operations. Adept at cross-functional collaboration, legacy modernization, and API integrations.
         </Summary>
         <ButtonsContainer>
           <PrimaryButton as={Link} to="/contact">Contact Me</PrimaryButton>
