@@ -132,63 +132,51 @@ const About: React.FC = () => {
             <Heading2>Technical Skills</Heading2>
             <SkillsContainer>
               <SkillCategory>
-                <Heading3>Frontend</Heading3>
+                <Heading3>Languages</Heading3>
                 <SkillsGrid>
-                  <Badge>React</Badge>
-                  <Badge>Redux</Badge>
+                  <Badge>JavaScript (ES6+)</Badge>
                   <Badge>TypeScript</Badge>
-                  <Badge>Next.js</Badge>
-                  <Badge>Angular</Badge>
+                  <Badge>Node.js</Badge>
+                  <Badge>HTML/CSS</Badge>
+                  <Badge>Liquid</Badge>
                 </SkillsGrid>
               </SkillCategory>
 
               <SkillCategory>
-                <Heading3>Backend</Heading3>
+                <Heading3>Frameworks & Libraries</Heading3>
                 <SkillsGrid>
-                  <Badge>Node.js</Badge>
-                  <Badge>PHP</Badge>
-                  <Badge>Java (Spring Boot)</Badge>
-                  <Badge>Python (Django)</Badge>
-                  <Badge>C#</Badge>
+                  <Badge>React</Badge>
+                  <Badge>Redux</Badge>
+                  <Badge>Node/Express</Badge>
+                  <Badge>Next.js</Badge>
+                  <Badge>Tailwind CSS</Badge>
+                  <Badge>Webpack</Badge>
+                  <Badge>Babel</Badge>
+                  <Badge>GraphQL</Badge>
+                  <Badge>Firebase</Badge>
                 </SkillsGrid>
               </SkillCategory>
 
               <SkillCategory>
                 <Heading3>eCommerce Platforms</Heading3>
                 <SkillsGrid>
-                  <Badge>Shopify (Liquid)</Badge>
+                  <Badge>Shopify</Badge>
+                  <Badge>WordPress</Badge>
                   <Badge>Akeneo</Badge>
                 </SkillsGrid>
               </SkillCategory>
 
               <SkillCategory>
-                <Heading3>Cloud Platforms</Heading3>
+                <Heading3>Databases & Servers</Heading3>
                 <SkillsGrid>
-                  <Badge>Azure</Badge>
-                  <Badge>AWS</Badge>
-                  <Badge>GCP</Badge>
-                  <Badge>Cloudflare</Badge>
-                </SkillsGrid>
-              </SkillCategory>
-
-              <SkillCategory>
-                <Heading3>Databases</Heading3>
-                <SkillsGrid>
-                  <Badge>MySQL</Badge>
-                  <Badge>PostgreSQL</Badge>
+                  <Badge>SQL</Badge>
                   <Badge>MongoDB</Badge>
-                  <Badge>MSSQL</Badge>
-                </SkillsGrid>
-              </SkillCategory>
-
-              <SkillCategory>
-                <Heading3>Tools & Technologies</Heading3>
-                <SkillsGrid>
-                  <Badge>Git</Badge>
+                  <Badge>Git/Github</Badge>
+                  <Badge>AWS (S3/EC2/Lambda)</Badge>
                   <Badge>Docker</Badge>
-                  <Badge>Kubernetes</Badge>
-                  <Badge>Selenium</Badge>
-                  <Badge>TensorFlow</Badge>
+                  <Badge>Azure</Badge>
+                  <Badge>GCP</Badge>
+                  <Badge>Linux</Badge>
                 </SkillsGrid>
               </SkillCategory>
             </SkillsContainer>

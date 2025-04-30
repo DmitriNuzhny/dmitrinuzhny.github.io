@@ -88,38 +88,15 @@ const Experience: React.FC = () => {
         <Heading1>Professional Experience</Heading1>
         <ExperienceContainer>
           <ExperienceItem>
-            <JobTitle>Senior Shopify Developer</JobTitle>
-            <Company>DentalMarketPlace</Company>
-            <Period>October 2024 – Present</Period>
-            <ResponsibilitiesList>
-              <li>Developed and optimized a Shopify-based dental product platform, increasing user engagement by improving UI responsiveness.</li>
-              <li>Developed Shopify public and custom apps using Node.js, React, and PHP.</li>
-              <li>Managed theme development in Liquid, JavaScript, and HTML/CSS, enhancing speed and accessibility.</li>
-              <li>Designed warehouse-based shipping logic that reduced delivery times by 20%.</li>
-              <li>Oversaw product inventory and SEO enhancements, supporting 500+ SKUs.</li>
-              <li>Coordinated feature implementation and bug fixes with cross-functional teams.</li>
-            </ResponsibilitiesList>
-            <TechStack>
-              <Heading3>Technologies Used:</Heading3>
-              <TechBadges>
-                <Badge>Shopify</Badge>
-                <Badge>Liquid</Badge>
-                <Badge>HTML/CSS</Badge>
-                <Badge>JavaScript</Badge>
-                <Badge>SEO</Badge>
-              </TechBadges>
-            </TechStack>
-          </ExperienceItem>
-
-          <ExperienceItem>
             <JobTitle>Senior Software Engineer</JobTitle>
             <Company>Fox Factory</Company>
-            <Period>January 2023 – May 2024</Period>
+            <Period>January 2023 – Present</Period>
             <ResponsibilitiesList>
-              <li>Launched BDS Suspension Shopify store, contributing to 35% growth in online revenue.</li>
-              <li>Engineered Akeneo-Shopify data sync module in Node.js to support over 3,000 dynamic SKUs.</li>
-              <li>Built React + Node.js applications including a customer showcase gallery.</li>
-              <li>Supported legacy backend systems in PHP and C#; integrated with Azure services(AD B2C, Function Apps, SQL).</li>
+              <li>Led development of large-scale Akeneo-Shopify application for the BDS Suspension team, resulting in a successful brand launch and over 2x ARR from BDS e-commerce products.</li>
+              <li>Architected module using Node.js, MongoDB, and GraphQL to import dynamic product data such as pricing, metafields, and variants from PIM to Shopify for enterprise truck parts manufacturer selling thousands of unique products.</li>
+              <li>Implemented auxiliary apps using React and Node.js such as a social media gallery for customer builds.</li>
+              <li>Contributed to theme code in Liquid and JS, updated legacy PHP site, and built C# backend on Azure and assisted mobile developers to connect Flutter app to authentication and data endpoints.</li>
+              <li>Managed various Azure resources including AD B2C Auth, Function App, Blob/File Storage, DB, etc.</li>
             </ResponsibilitiesList>
             <TechStack>
               <Heading3>Technologies Used:</Heading3>
@@ -132,6 +109,9 @@ const Experience: React.FC = () => {
                 <Badge>Azure</Badge>
                 <Badge>PHP</Badge>
                 <Badge>C#</Badge>
+                <Badge>MongoDB</Badge>
+                <Badge>GraphQL</Badge>
+                <Badge>Flutter</Badge>
               </TechBadges>
             </TechStack>
           </ExperienceItem>
@@ -141,10 +121,11 @@ const Experience: React.FC = () => {
             <Company>Navient</Company>
             <Period>August 2020 – December 2022</Period>
             <ResponsibilitiesList>
-              <li>Modernized financial aid processing tools for college networks using Node.js and React.</li>
-              <li>Built centralized data ingestion systems, improving data pipeline efficiency by 40%.</li>
-              <li>Created secure RESTful APIs for financial aid record access.</li>
-              <li>Enhanced Redux-powered admin portals for university partners.</li>
+              <li>Spearheaded migration of large-scale financial aid processing system to Express backend, centralizing data for over 200 college networks on a modernized system.</li>
+              <li>Developed secure, RESTful APIs to integrate college networks with Navient's centralized financial system, enabling real-time data retrieval for student financial aid.</li>
+              <li>Enhanced the user experience for college admins by developing an intuitive React with Typescript frontend using Redux for state management and MSSQL Server.</li>
+              <li>Implemented real-time updates for financial aid records using websockets to improve system responsiveness and user experience.</li>
+              <li>Collaborated with frontend teams to ensure proper deployment of Twilio Flex plugins, as well as handling DevOps, using Docker for containerization and Jenkins for CI/CD.</li>
             </ResponsibilitiesList>
             <TechStack>
               <Heading3>Technologies Used:</Heading3>
@@ -153,51 +134,58 @@ const Experience: React.FC = () => {
                 <Badge>React</Badge>
                 <Badge>TypeScript</Badge>
                 <Badge>Redux</Badge>
-                <Badge>SQL</Badge>
+                <Badge>MSSQL</Badge>
                 <Badge>REST APIs</Badge>
+                <Badge>WebSocket</Badge>
+                <Badge>Docker</Badge>
+                <Badge>Jenkins</Badge>
+                <Badge>Twilio</Badge>
               </TechBadges>
             </TechStack>
           </ExperienceItem>
 
           <ExperienceItem>
-            <JobTitle>Angular / Spring Boot Engineer</JobTitle>
+            <JobTitle>Full-Stack Developer</JobTitle>
             <Company>Santa Fe College</Company>
             <Period>May 2019 – August 2020</Period>
             <ResponsibilitiesList>
-              <li>Built a student portal with real-time class registration and document management.</li>
-              <li>Developed REST APIs and student record systems using Java Spring Boot and Hibernate.</li>
-              <li>Integrated Angular frontend with dynamic HTTP endpoints.</li>
+              <li>Played a key role in developing Santa Fe College's student portal, using React for the frontend and Node.js/Express for the backend, to streamline the system for class enrollment, financial aid management, and coursework tracking.</li>
+              <li>Integrated MongoDB and Mongoose ODM to handle complex database relationships for storing student records, financial aid data, and academic transcripts.</li>
+              <li>Used React hooks and functional components to implement clean, reusable UI elements, improving maintainability and reducing development time.</li>
+              <li>Built several backend services including authentication using JWT, managing users, managing classes, transcripts, and various other administrative data used by the college network.</li>
             </ResponsibilitiesList>
             <TechStack>
               <Heading3>Technologies Used:</Heading3>
               <TechBadges>
-                <Badge>Angular</Badge>
-                <Badge>Spring Boot</Badge>
-                <Badge>Java</Badge>
-                <Badge>Hibernate</Badge>
-                <Badge>JPA</Badge>
-                <Badge>SQL</Badge>
+                <Badge>React</Badge>
+                <Badge>Node.js</Badge>
+                <Badge>Express</Badge>
+                <Badge>MongoDB</Badge>
+                <Badge>Mongoose</Badge>
+                <Badge>JWT</Badge>
+                <Badge>REST APIs</Badge>
               </TechBadges>
             </TechStack>
           </ExperienceItem>
 
           <ExperienceItem>
-            <JobTitle>Senior PHP Developer</JobTitle>
+            <JobTitle>Junior Full-Stack Developer</JobTitle>
             <Company>DeliverLogic</Company>
             <Period>June 2018 – February 2019</Period>
             <ResponsibilitiesList>
-              <li>Created visual dashboards for food delivery systems using Google Charts.</li>
-              <li>Integrated Twilio 2FA, Slack support bots, and 7-Eleven ordering services.</li>
-              <li>Developed analytics dashboards and financial tables for restaurant partners.</li>
+              <li>Contributed to building modern, responsive web pages in React and Node.js for a food delivery service, resulting in increased revenue for several B2B sales channels within the application.</li>
+              <li>Integrated third-party API services such as Twilio for two-factor auth and updated various Google Maps functions for managing real-time location tracking of deliveries.</li>
+              <li>Developed financial report module for restaurants using Node.js, and MongoDB.</li>
             </ResponsibilitiesList>
             <TechStack>
               <Heading3>Technologies Used:</Heading3>
               <TechBadges>
-                <Badge>PHP</Badge>
-                <Badge>JavaScript</Badge>
-                <Badge>Google Visualization</Badge>
+                <Badge>React</Badge>
+                <Badge>Node.js</Badge>
+                <Badge>MongoDB</Badge>
+                <Badge>Google Maps API</Badge>
+                <Badge>Twilio</Badge>
                 <Badge>REST APIs</Badge>
-                <Badge>MySQL</Badge>
               </TechBadges>
             </TechStack>
           </ExperienceItem>
