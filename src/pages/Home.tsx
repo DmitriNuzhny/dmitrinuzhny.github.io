@@ -121,7 +121,7 @@ const Home = () => {
     >
       <HeroSection>
         <Name>Dmitri Nuzhny</Name>
-        <Title>Full-stack Software Engineer</Title>
+        <Title>Full-Stack Software Engineer</Title>
         <Summary>
           Full-stack Software Engineer with over 7 years of experience building scalable, high-performance web applications, with a specialization in eCommerce and cloud-native systems. Expert in React, Node.js, Shopify, and AWS/Azure. Delivered production-grade solutions across industries including dental, education, and logistics, serving thousands of users and streamlining operations. Adept at cross-functional collaboration, legacy modernization, and API integrations.
         </Summary>
