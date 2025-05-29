@@ -170,6 +170,18 @@ const About: React.FC = () => {
               </SkillCategory>
 
               <SkillCategory>
+                <Heading3>Mobile Development</Heading3>
+                <SkillsGrid>
+                  <Badge>React Native</Badge>
+                  <Badge>Expo</Badge>
+                  <Badge>Firebase</Badge>
+                  <Badge>iOS</Badge>
+                  <Badge>Android</Badge>
+                  <Badge>Cross-platform</Badge>
+                </SkillsGrid>
+              </SkillCategory>
+
+              <SkillCategory>
                 <Heading3>Databases & Servers</Heading3>
                 <SkillsGrid>
                   <Badge>SQL</Badge>
