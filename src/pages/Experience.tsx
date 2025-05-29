@@ -164,6 +164,8 @@ const Experience: React.FC = () => {
                 <Badge>Mongoose</Badge>
                 <Badge>JWT</Badge>
                 <Badge>REST APIs</Badge>
+                <Badge>Java</Badge>
+                <Badge>Spring Boot</Badge>
               </TechBadges>
             </TechStack>
           </ExperienceItem>

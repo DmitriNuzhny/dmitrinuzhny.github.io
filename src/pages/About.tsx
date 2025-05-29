@@ -137,6 +137,7 @@ const About: React.FC = () => {
                   <Badge>JavaScript (ES6+)</Badge>
                   <Badge>TypeScript</Badge>
                   <Badge>Node.js</Badge>
+                  <Badge>Java</Badge>
                   <Badge>HTML/CSS</Badge>
                   <Badge>Liquid</Badge>
                 </SkillsGrid>
@@ -148,6 +149,7 @@ const About: React.FC = () => {
                   <Badge>React</Badge>
                   <Badge>Redux</Badge>
                   <Badge>Node/Express</Badge>
+                  <Badge>Spring Boot</Badge>
                   <Badge>Next.js</Badge>
                   <Badge>Tailwind CSS</Badge>
                   <Badge>Webpack</Badge>
