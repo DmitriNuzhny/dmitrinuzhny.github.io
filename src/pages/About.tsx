@@ -147,6 +147,7 @@ const About: React.FC = () => {
                 <Heading3>Frameworks & Libraries</Heading3>
                 <SkillsGrid>
                   <Badge>React</Badge>
+                  <Badge>React Native</Badge>
                   <Badge>Redux</Badge>
                   <Badge>Node/Express</Badge>
                   <Badge>Spring Boot</Badge>

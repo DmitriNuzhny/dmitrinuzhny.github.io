@@ -132,6 +132,7 @@ const Experience: React.FC = () => {
               <TechBadges>
                 <Badge>Node.js</Badge>
                 <Badge>React</Badge>
+                <Badge>React Native</Badge>
                 <Badge>TypeScript</Badge>
                 <Badge>Redux</Badge>
                 <Badge>MSSQL</Badge>
@@ -158,6 +159,7 @@ const Experience: React.FC = () => {
               <Heading3>Technologies Used:</Heading3>
               <TechBadges>
                 <Badge>React</Badge>
+                <Badge>React Native</Badge>
                 <Badge>Node.js</Badge>
                 <Badge>Express</Badge>
                 <Badge>MongoDB</Badge>
@@ -183,6 +185,7 @@ const Experience: React.FC = () => {
               <Heading3>Technologies Used:</Heading3>
               <TechBadges>
                 <Badge>React</Badge>
+                <Badge>React Native</Badge>
                 <Badge>Node.js</Badge>
                 <Badge>MongoDB</Badge>
                 <Badge>Google Maps API</Badge>
