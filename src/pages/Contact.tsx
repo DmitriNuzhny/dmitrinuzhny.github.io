@@ -240,7 +240,7 @@ const Contact: React.FC = () => {
                 <SocialLink href="https://github.com/dmitrinuzhny" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <FaGithub />
                 </SocialLink>
-                <SocialLink href="https://www.linkedin.com/in/dmitrinuzhny" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <SocialLink href="https://www.linkedin.com/in/dmitri-nuzhny-a622021b0/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <FaLinkedin />
                 </SocialLink>
               </SocialLinks>
