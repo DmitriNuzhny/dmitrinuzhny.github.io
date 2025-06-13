@@ -112,7 +112,6 @@ const Experience: React.FC = () => {
                 <Badge>MongoDB</Badge>
                 <Badge>GraphQL</Badge>
                 <Badge>Flutter</Badge>
-                <Badge>PHP</Badge>
                 <Badge>Symfony</Badge>
                 <Badge>Composer</Badge>
               </TechBadges>
