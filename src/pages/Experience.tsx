@@ -112,6 +112,9 @@ const Experience: React.FC = () => {
                 <Badge>MongoDB</Badge>
                 <Badge>GraphQL</Badge>
                 <Badge>Flutter</Badge>
+                <Badge>PHP</Badge>
+                <Badge>Symfony</Badge>
+                <Badge>Composer</Badge>
               </TechBadges>
             </TechStack>
           </ExperienceItem>
@@ -191,6 +194,11 @@ const Experience: React.FC = () => {
                 <Badge>Google Maps API</Badge>
                 <Badge>Twilio</Badge>
                 <Badge>REST APIs</Badge>
+                <Badge>PHP</Badge>
+                <Badge>Symfony</Badge>
+                <Badge>Laravel</Badge>
+                <Badge>WordPress</Badge>
+                <Badge>Composer</Badge>
               </TechBadges>
             </TechStack>
           </ExperienceItem>
