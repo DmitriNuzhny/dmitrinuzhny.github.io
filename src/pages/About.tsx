@@ -138,6 +138,7 @@ const About: React.FC = () => {
                   <Badge>TypeScript</Badge>
                   <Badge>Node.js</Badge>
                   <Badge>Java</Badge>
+                  <Badge>PHP</Badge>
                   <Badge>HTML/CSS</Badge>
                   <Badge>Liquid</Badge>
                 </SkillsGrid>
@@ -157,6 +158,10 @@ const About: React.FC = () => {
                   <Badge>Babel</Badge>
                   <Badge>GraphQL</Badge>
                   <Badge>Firebase</Badge>
+                  <Badge>Symfony</Badge>
+                  <Badge>Laravel</Badge>
+                  <Badge>WordPress</Badge>
+                  <Badge>Composer</Badge>
                 </SkillsGrid>
               </SkillCategory>
 
