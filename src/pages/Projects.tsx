@@ -94,21 +94,20 @@ const Projects: React.FC = () => {
       title: 'BDS Suspension & Akeneo Integration',
       description: 'Engineered custom apps for Shopify and data synchronization with Akeneo. Designed gallery and product showcase systems.',
       link: 'https://bds-suspension.com',
-      github: 'https://github.com/dmitrinuzhny',
       technologies: ['Shopify', 'Liquid', 'Node.js', 'React', 'Akeneo', 'Azure']
     },
     {
       id: 6,
       title: 'Social Media Gallery',
       description: 'Developed a social media gallery app using React and Node.js, showcasing customer builds. Integrated with various social media APIs to automatically fetch and display user-generated content.',
-      github: 'https://github.com/dmitrinuzhny',
+      link: 'https://bds-suspension.com/pages/gallery',
       technologies: ['React', 'Node.js', 'TypeScript', 'Social Media APIs', 'Azure']
     },
     {
       id: 7,
       title: 'Akeneo-Shopify Integration',
       description: 'Built a custom integration module to synchronize product data between Akeneo PIM and Shopify. Enabled enterprise clients to manage thousands of unique products with dynamic pricing and variants.',
-      github: 'https://github.com/dmitrinuzhny',
+      link: 'https://serenity-foxfactory.cloud.akeneo.com',
       technologies: ['Node.js', 'Akeneo API', 'Shopify API', 'Azure Functions', 'TypeScript']
     }
   ];
