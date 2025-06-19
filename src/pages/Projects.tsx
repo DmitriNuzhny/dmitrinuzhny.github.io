@@ -63,10 +63,10 @@ const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: 'DentalMarketPlace',
-      description: 'Implemented multi-brand product import tools and warehouse shipping logic. Managed Shopify theme and store app integration.',
-      link: 'https://dentalmarketplace.shop',
-      technologies: ['Shopify', 'Liquid', 'HTML/CSS', 'JavaScript', 'Node.js', 'React']
+      title: 'Alaninu',
+      description: 'Built all the pages for the website based on the design provided by the client on Shopify.',
+      link: 'https://alaninu.com',
+      technologies: ['Shopify', 'Liquid', 'HTML/CSS', 'JavaScript', 'Shopify API']
     },
     {
       id: 2,
@@ -109,7 +109,14 @@ const Projects: React.FC = () => {
       description: 'Built a custom integration module to synchronize product data between Akeneo PIM and Shopify. Enabled enterprise clients to manage thousands of unique products with dynamic pricing and variants.',
       link: 'https://serenity-foxfactory.cloud.akeneo.com',
       technologies: ['Node.js', 'Akeneo API', 'Shopify API', 'Azure Functions', 'TypeScript']
-    }
+    },
+    {
+      id: 8,
+      title: 'DentalMarketPlace',
+      description: 'Implemented multi-brand product import tools and warehouse shipping logic. Managed Shopify theme and store app integration.',
+      link: 'https://dentalmarketplace.shop',
+      technologies: ['Shopify', 'Liquid', 'HTML/CSS', 'JavaScript', 'Node.js', 'React']
+    },
   ];
 
   return (
